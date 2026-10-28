@@ -1,0 +1,60 @@
+## Build and Output Directories
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+build/
+out/
+
+## Visual Studio & VS Code User Files
+.vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+## User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Rider / JetBrains IDEs
+.idea/
+*.sln.iml
+
+## NuGet & Dependencies
+*.nupkg
+*.snupkg
+packages/
+# Если вы используете локальную директорию для nupkgs, раскомментируйте:
+# !packages/repositories.config
+
+## Test Results and Code Coverage
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.dotCover
+*.coverage
+*.coveragexml
+
+## Database & Local Storage
+*.mdf
+*.ldf
+*.db
+*.sqlite
+*.sqlite3
+appsettings.Development.json
+appsettings.Local.json
+
+## Publish Outputs
+*.azurePubxml
+*.pubxml
+*.pubxml.user
+
+## OS Generated Files
+.DS_Store
+Thumbs.db
+desktop.ini
